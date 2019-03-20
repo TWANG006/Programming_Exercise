@@ -9,9 +9,11 @@
 #include <bitset>
 #include <map>
 
-typedef std::pair<int, int> ii;
-typedef std::vector<ii> vii;
-typedef std::vector<int> vi;
+using namespace std;
+
+typedef pair<int, int> ii;
+typedef vector<ii> vii;
+typedef vector<int> vi;
 
 #define REP(i, a, b) for(int i=int(a); i<=int(b); i++)
 const double pi = 2 * acos(0.0);
