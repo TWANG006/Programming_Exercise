@@ -42,6 +42,7 @@
     <ClInclude Include="Solutions\uva_11172_relational_operator.h" />
     <ClInclude Include="Solutions\uva_11364_parking.h" />
     <ClInclude Include="Solutions\uva_11498_division_of_nlogonia.h" />
+    <ClInclude Include="Solutions\uva_11547_automatic_answer.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="uva_01124_celebrity_jeopardy_test.cpp" />
@@ -57,6 +58,7 @@
     <ClCompile Include="uva_11172_relational_operator_test.cpp" />
     <ClCompile Include="uva_11364_parking_test.cpp" />
     <ClCompile Include="uva_11498_division_of_nlogonia_test.cpp" />
+    <ClCompile Include="uva_11547_automatic_answer_test.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
