@@ -26,6 +26,9 @@
     <ClCompile Include="uva_11547_automatic_answer_test.cpp">
       <Filter>Tests</Filter>
     </ClCompile>
+    <ClCompile Include="uva_11727_cost_cutting_test.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h" />
@@ -52,6 +55,9 @@
       <Filter>Solutions</Filter>
     </ClInclude>
     <ClInclude Include="Solutions\uva_11547_automatic_answer.h">
+      <Filter>Solutions</Filter>
+    </ClInclude>
+    <ClInclude Include="Solutions\uva_11727_cost_cutting.h">
       <Filter>Solutions</Filter>
     </ClInclude>
   </ItemGroup>
