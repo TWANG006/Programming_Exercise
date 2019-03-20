@@ -38,6 +38,7 @@
     <ClInclude Include="Solutions\uva_00272_tex_quotes.h" />
     <ClInclude Include="Solutions\uva_01124_celebrity_jeopardy.h" />
     <ClInclude Include="Solutions\uva_10550_combination_lock.h" />
+    <ClInclude Include="Solutions\uva_11044_searching_for_nessy.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="uva_01124_celebrity_jeopardy_test.cpp" />
@@ -49,6 +50,7 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
     <ClCompile Include="uva_10550_combination_lock_test.cpp" />
+    <ClCompile Include="uva_11044 _searching_for_nessy_test.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
