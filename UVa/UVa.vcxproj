@@ -36,8 +36,10 @@
     <ClInclude Include="pch.h" />
     <ClInclude Include="Solutions\common.h" />
     <ClInclude Include="Solutions\uva_00272_tex_quotes.h" />
+    <ClInclude Include="Solutions\uva_01124_celebrity_jeopardy.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="uva_01124_celebrity_jeopardy_test.cpp" />
     <ClCompile Include="uva_00272_tex_quotes_test.cpp" />
     <ClCompile Include="pch.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>

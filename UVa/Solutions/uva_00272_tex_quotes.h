@@ -1,8 +1,5 @@
 #pragma once
 
-#ifndef UVA_00272_TEX_QUOTES_H
-#define UVA_00272_TEX_QUOTES_H
-
 #include "common.h"
 
 class UVA_00272
@@ -77,8 +74,6 @@ public:
 		fclose(cfout);
 	}
 };
-
-#endif // !UVA_00272_TEX_QUOTES_H
 
 /*
 	TEX is a typesetting language developed by Donald Knuth. It takes source text together with a few

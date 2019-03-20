@@ -5,6 +5,9 @@
     <ClCompile Include="uva_00272_tex_quotes_test.cpp">
       <Filter>Tests</Filter>
     </ClCompile>
+    <ClCompile Include="uva_01124_celebrity_jeopardy_test.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h" />
@@ -12,6 +15,9 @@
       <Filter>Solutions</Filter>
     </ClInclude>
     <ClInclude Include="Solutions\common.h" />
+    <ClInclude Include="Solutions\uva_01124_celebrity_jeopardy.h">
+      <Filter>Solutions</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Solutions">
