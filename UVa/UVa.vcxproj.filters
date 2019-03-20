@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="uva_00272_tex_quotes_test.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="Solutions\uva_00272_tex_quotes.h">
+      <Filter>Solutions</Filter>
+    </ClInclude>
+    <ClInclude Include="Solutions\common.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Solutions">
+      <UniqueIdentifier>{5e0b5c27-c7dc-4953-96d7-0593847bb920}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tests">
+      <UniqueIdentifier>{6b3a104e-6c9e-4a62-aba8-5542abcf5b75}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
