@@ -39,6 +39,8 @@
     <ClInclude Include="Solutions\uva_01124_celebrity_jeopardy.h" />
     <ClInclude Include="Solutions\uva_10550_combination_lock.h" />
     <ClInclude Include="Solutions\uva_11044_searching_for_nessy.h" />
+    <ClInclude Include="Solutions\uva_11172_relational_operator.h" />
+    <ClInclude Include="Solutions\uva_11364_parking.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="uva_01124_celebrity_jeopardy_test.cpp" />
@@ -51,6 +53,8 @@
     </ClCompile>
     <ClCompile Include="uva_10550_combination_lock_test.cpp" />
     <ClCompile Include="uva_11044 _searching_for_nessy_test.cpp" />
+    <ClCompile Include="uva_11172_relational_operator_test.cpp" />
+    <ClCompile Include="uva_11364_parking_test.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
