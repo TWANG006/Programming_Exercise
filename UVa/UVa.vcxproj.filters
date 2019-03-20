@@ -20,6 +20,9 @@
     <ClCompile Include="uva_11364_parking_test.cpp">
       <Filter>Tests</Filter>
     </ClCompile>
+    <ClCompile Include="uva_11498_division_of_nlogonia_test.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h" />
@@ -40,6 +43,9 @@
       <Filter>Solutions</Filter>
     </ClInclude>
     <ClInclude Include="Solutions\uva_11364_parking.h">
+      <Filter>Solutions</Filter>
+    </ClInclude>
+    <ClInclude Include="Solutions\uva_11498_division_of_nlogonia.h">
       <Filter>Solutions</Filter>
     </ClInclude>
   </ItemGroup>
