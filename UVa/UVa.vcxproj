@@ -44,6 +44,7 @@
     <ClInclude Include="Solutions\uva_11498_division_of_nlogonia.h" />
     <ClInclude Include="Solutions\uva_11547_automatic_answer.h" />
     <ClInclude Include="Solutions\uva_11727_cost_cutting.h" />
+    <ClInclude Include="Solutions\uva_12250_language_detection.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="uva_01124_celebrity_jeopardy_test.cpp" />
@@ -61,6 +62,7 @@
     <ClCompile Include="uva_11498_division_of_nlogonia_test.cpp" />
     <ClCompile Include="uva_11547_automatic_answer_test.cpp" />
     <ClCompile Include="uva_11727_cost_cutting_test.cpp" />
+    <ClCompile Include="uva_12250_language_detection_test.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
