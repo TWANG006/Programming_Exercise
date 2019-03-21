@@ -36,6 +36,7 @@
     <ClInclude Include="pch.h" />
     <ClInclude Include="Solutions\common.h" />
     <ClInclude Include="Solutions\uva_00272_tex_quotes.h" />
+    <ClInclude Include="Solutions\uva_00621_secret_research.h" />
     <ClInclude Include="Solutions\uva_01124_celebrity_jeopardy.h" />
     <ClInclude Include="Solutions\uva_10550_combination_lock.h" />
     <ClInclude Include="Solutions\uva_11044_searching_for_nessy.h" />
@@ -45,8 +46,14 @@
     <ClInclude Include="Solutions\uva_11547_automatic_answer.h" />
     <ClInclude Include="Solutions\uva_11727_cost_cutting.h" />
     <ClInclude Include="Solutions\uva_12250_language_detection.h" />
+    <ClInclude Include="Solutions\uva_12279_emoogle_balance.h" />
+    <ClInclude Include="Solutions\uva_12289_one_two_three.h" />
+    <ClInclude Include="Solutions\uva_12372_packing_for_holiday.h" />
+    <ClInclude Include="Solutions\uva_12403_save_setu.h" />
+    <ClInclude Include="Solutions\uva_12577_hajj_e_akbar.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="uva_00621_secret_research_test.cpp" />
     <ClCompile Include="uva_01124_celebrity_jeopardy_test.cpp" />
     <ClCompile Include="uva_00272_tex_quotes_test.cpp" />
     <ClCompile Include="pch.cpp">
@@ -58,11 +65,16 @@
     <ClCompile Include="uva_10550_combination_lock_test.cpp" />
     <ClCompile Include="uva_11044 _searching_for_nessy_test.cpp" />
     <ClCompile Include="uva_11172_relational_operator_test.cpp" />
+    <ClCompile Include="uva_11289_one_two_three_test.cpp" />
     <ClCompile Include="uva_11364_parking_test.cpp" />
     <ClCompile Include="uva_11498_division_of_nlogonia_test.cpp" />
     <ClCompile Include="uva_11547_automatic_answer_test.cpp" />
     <ClCompile Include="uva_11727_cost_cutting_test.cpp" />
     <ClCompile Include="uva_12250_language_detection_test.cpp" />
+    <ClCompile Include="uva_12279_emoogle_balance_test.cpp" />
+    <ClCompile Include="uva_12372_packing_for_holiday_test.cpp" />
+    <ClCompile Include="uva_12403_save_setu_test.cpp" />
+    <ClCompile Include="uva_12577_hajj_e_akbar_test.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

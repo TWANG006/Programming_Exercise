@@ -2,6 +2,8 @@
 #define COMMON_H_
 
 #include <algorithm>
+#include <iostream>
+#include <fstream>
 #include <cmath>
 #include <cstdio>
 #include <cstring>

@@ -32,6 +32,22 @@
     <ClCompile Include="uva_12250_language_detection_test.cpp">
       <Filter>Tests</Filter>
     </ClCompile>
+    <ClCompile Include="uva_12279_emoogle_balance_test.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="uva_11289_one_two_three_test.cpp" />
+    <ClCompile Include="uva_12372_packing_for_holiday_test.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="uva_12403_save_setu_test.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="uva_12577_hajj_e_akbar_test.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="uva_00621_secret_research_test.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h" />
@@ -64,6 +80,24 @@
       <Filter>Solutions</Filter>
     </ClInclude>
     <ClInclude Include="Solutions\uva_12250_language_detection.h">
+      <Filter>Solutions</Filter>
+    </ClInclude>
+    <ClInclude Include="Solutions\uva_12279_emoogle_balance.h">
+      <Filter>Solutions</Filter>
+    </ClInclude>
+    <ClInclude Include="Solutions\uva_12289_one_two_three.h">
+      <Filter>Solutions</Filter>
+    </ClInclude>
+    <ClInclude Include="Solutions\uva_12372_packing_for_holiday.h">
+      <Filter>Solutions</Filter>
+    </ClInclude>
+    <ClInclude Include="Solutions\uva_12403_save_setu.h">
+      <Filter>Solutions</Filter>
+    </ClInclude>
+    <ClInclude Include="Solutions\uva_12577_hajj_e_akbar.h">
+      <Filter>Solutions</Filter>
+    </ClInclude>
+    <ClInclude Include="Solutions\uva_00621_secret_research.h">
       <Filter>Solutions</Filter>
     </ClInclude>
   </ItemGroup>
