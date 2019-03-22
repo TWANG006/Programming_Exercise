@@ -48,6 +48,18 @@
     <ClCompile Include="uva_00621_secret_research_test.cpp">
       <Filter>Tests</Filter>
     </ClCompile>
+    <ClCompile Include="uva_10189_minesweeper_test.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="uva_00489_hangman_judge_test.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="uva_11459_snakes_and_ladders_test.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="uva_00584_bowling_test.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h" />
@@ -98,6 +110,18 @@
       <Filter>Solutions</Filter>
     </ClInclude>
     <ClInclude Include="Solutions\uva_00621_secret_research.h">
+      <Filter>Solutions</Filter>
+    </ClInclude>
+    <ClInclude Include="Solutions\uva_10189_minesweeper.h">
+      <Filter>Solutions</Filter>
+    </ClInclude>
+    <ClInclude Include="Solutions\uva_00489_hangman_judge.h">
+      <Filter>Solutions</Filter>
+    </ClInclude>
+    <ClInclude Include="Solutions\uva_11459_snakes_and_ladders.h">
+      <Filter>Solutions</Filter>
+    </ClInclude>
+    <ClInclude Include="Solutions\uva_00584_bowling.h">
       <Filter>Solutions</Filter>
     </ClInclude>
   </ItemGroup>
