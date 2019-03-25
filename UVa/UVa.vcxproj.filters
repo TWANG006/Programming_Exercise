@@ -60,6 +60,15 @@
     <ClCompile Include="uva_00584_bowling_test.cpp">
       <Filter>Tests</Filter>
     </ClCompile>
+    <ClCompile Include="uva_10443_rock_sissors_paper_test.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="uva_10813_traditional_bingo_test.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="uva_00401_palindromes_test.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h" />
@@ -124,6 +133,15 @@
     <ClInclude Include="Solutions\uva_00584_bowling.h">
       <Filter>Solutions</Filter>
     </ClInclude>
+    <ClInclude Include="Solutions\uva_10443_rock_sissors_paper.h">
+      <Filter>Solutions</Filter>
+    </ClInclude>
+    <ClInclude Include="Solutions\uva_10813_traditional_bingo.h">
+      <Filter>Solutions</Filter>
+    </ClInclude>
+    <ClInclude Include="Solutions\uva_00401_palindromes.h">
+      <Filter>Solutions</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Solutions">
@@ -132,5 +150,8 @@
     <Filter Include="Tests">
       <UniqueIdentifier>{6b3a104e-6c9e-4a62-aba8-5542abcf5b75}</UniqueIdentifier>
     </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
   </ItemGroup>
 </Project>

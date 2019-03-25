@@ -36,12 +36,15 @@
     <ClInclude Include="pch.h" />
     <ClInclude Include="Solutions\common.h" />
     <ClInclude Include="Solutions\uva_00272_tex_quotes.h" />
+    <ClInclude Include="Solutions\uva_00401_palindromes.h" />
     <ClInclude Include="Solutions\uva_00489_hangman_judge.h" />
     <ClInclude Include="Solutions\uva_00584_bowling.h" />
     <ClInclude Include="Solutions\uva_00621_secret_research.h" />
     <ClInclude Include="Solutions\uva_01124_celebrity_jeopardy.h" />
     <ClInclude Include="Solutions\uva_10189_minesweeper.h" />
+    <ClInclude Include="Solutions\uva_10443_rock_sissors_paper.h" />
     <ClInclude Include="Solutions\uva_10550_combination_lock.h" />
+    <ClInclude Include="Solutions\uva_10813_traditional_bingo.h" />
     <ClInclude Include="Solutions\uva_11044_searching_for_nessy.h" />
     <ClInclude Include="Solutions\uva_11172_relational_operator.h" />
     <ClInclude Include="Solutions\uva_11364_parking.h" />
@@ -57,6 +60,7 @@
     <ClInclude Include="Solutions\uva_12577_hajj_e_akbar.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="uva_00401_palindromes_test.cpp" />
     <ClCompile Include="uva_00489_hangman_judge_test.cpp" />
     <ClCompile Include="uva_00584_bowling_test.cpp" />
     <ClCompile Include="uva_00621_secret_research_test.cpp" />
@@ -69,7 +73,9 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
     <ClCompile Include="uva_10189_minesweeper_test.cpp" />
+    <ClCompile Include="uva_10443_rock_sissors_paper_test.cpp" />
     <ClCompile Include="uva_10550_combination_lock_test.cpp" />
+    <ClCompile Include="uva_10813_traditional_bingo_test.cpp" />
     <ClCompile Include="uva_11044 _searching_for_nessy_test.cpp" />
     <ClCompile Include="uva_11172_relational_operator_test.cpp" />
     <ClCompile Include="uva_11289_one_two_three_test.cpp" />
