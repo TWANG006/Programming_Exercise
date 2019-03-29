@@ -69,6 +69,12 @@
     <ClCompile Include="uva_00401_palindromes_test.cpp">
       <Filter>Tests</Filter>
     </ClCompile>
+    <ClCompile Include="uva_00594_one_little_two_little_three_little_test.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="uva_12157_tariff_plan_test.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h" />
@@ -140,6 +146,12 @@
       <Filter>Solutions</Filter>
     </ClInclude>
     <ClInclude Include="Solutions\uva_00401_palindromes.h">
+      <Filter>Solutions</Filter>
+    </ClInclude>
+    <ClInclude Include="Solutions\uva_00594_one_little_two_little_three_little.h">
+      <Filter>Solutions</Filter>
+    </ClInclude>
+    <ClInclude Include="Solutions\uva_12157_tariff_plan.h">
       <Filter>Solutions</Filter>
     </ClInclude>
   </ItemGroup>

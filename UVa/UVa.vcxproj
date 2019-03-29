@@ -39,6 +39,7 @@
     <ClInclude Include="Solutions\uva_00401_palindromes.h" />
     <ClInclude Include="Solutions\uva_00489_hangman_judge.h" />
     <ClInclude Include="Solutions\uva_00584_bowling.h" />
+    <ClInclude Include="Solutions\uva_00594_one_little_two_little_three_little.h" />
     <ClInclude Include="Solutions\uva_00621_secret_research.h" />
     <ClInclude Include="Solutions\uva_01124_celebrity_jeopardy.h" />
     <ClInclude Include="Solutions\uva_10189_minesweeper.h" />
@@ -52,6 +53,7 @@
     <ClInclude Include="Solutions\uva_11498_division_of_nlogonia.h" />
     <ClInclude Include="Solutions\uva_11547_automatic_answer.h" />
     <ClInclude Include="Solutions\uva_11727_cost_cutting.h" />
+    <ClInclude Include="Solutions\uva_12157_tariff_plan.h" />
     <ClInclude Include="Solutions\uva_12250_language_detection.h" />
     <ClInclude Include="Solutions\uva_12279_emoogle_balance.h" />
     <ClInclude Include="Solutions\uva_12289_one_two_three.h" />
@@ -63,6 +65,7 @@
     <ClCompile Include="uva_00401_palindromes_test.cpp" />
     <ClCompile Include="uva_00489_hangman_judge_test.cpp" />
     <ClCompile Include="uva_00584_bowling_test.cpp" />
+    <ClCompile Include="uva_00594_one_little_two_little_three_little_test.cpp" />
     <ClCompile Include="uva_00621_secret_research_test.cpp" />
     <ClCompile Include="uva_01124_celebrity_jeopardy_test.cpp" />
     <ClCompile Include="uva_00272_tex_quotes_test.cpp" />
@@ -84,6 +87,7 @@
     <ClCompile Include="uva_11498_division_of_nlogonia_test.cpp" />
     <ClCompile Include="uva_11547_automatic_answer_test.cpp" />
     <ClCompile Include="uva_11727_cost_cutting_test.cpp" />
+    <ClCompile Include="uva_12157_tariff_plan_test.cpp" />
     <ClCompile Include="uva_12250_language_detection_test.cpp" />
     <ClCompile Include="uva_12279_emoogle_balance_test.cpp" />
     <ClCompile Include="uva_12372_packing_for_holiday_test.cpp" />
