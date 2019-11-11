@@ -5,8 +5,6 @@ VisualStudioVersion = 15.0.28307.421
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UVa", "UVa\UVa.vcxproj", "{152BB9A2-AA38-4447-8E6E-95D29B28F223}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LeetCode", "LeetCode\LeetCode.vcxproj", "{CF1C96E8-86B0-4585-B4A8-DB741FC0A739}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -23,14 +21,6 @@ Global
 		{152BB9A2-AA38-4447-8E6E-95D29B28F223}.Release|x64.Build.0 = Release|x64
 		{152BB9A2-AA38-4447-8E6E-95D29B28F223}.Release|x86.ActiveCfg = Release|Win32
 		{152BB9A2-AA38-4447-8E6E-95D29B28F223}.Release|x86.Build.0 = Release|Win32
-		{CF1C96E8-86B0-4585-B4A8-DB741FC0A739}.Debug|x64.ActiveCfg = Debug|x64
-		{CF1C96E8-86B0-4585-B4A8-DB741FC0A739}.Debug|x64.Build.0 = Debug|x64
-		{CF1C96E8-86B0-4585-B4A8-DB741FC0A739}.Debug|x86.ActiveCfg = Debug|Win32
-		{CF1C96E8-86B0-4585-B4A8-DB741FC0A739}.Debug|x86.Build.0 = Debug|Win32
-		{CF1C96E8-86B0-4585-B4A8-DB741FC0A739}.Release|x64.ActiveCfg = Release|x64
-		{CF1C96E8-86B0-4585-B4A8-DB741FC0A739}.Release|x64.Build.0 = Release|x64
-		{CF1C96E8-86B0-4585-B4A8-DB741FC0A739}.Release|x86.ActiveCfg = Release|Win32
-		{CF1C96E8-86B0-4585-B4A8-DB741FC0A739}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
