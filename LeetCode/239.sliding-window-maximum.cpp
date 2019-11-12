@@ -47,21 +47,28 @@
 class Solution {
 public:
     vector<int> maxSlidingWindow(vector<int>& nums, int k) {
+        // If nums is empty, return an empty vector
         if (nums.empty()) return vector<int>();
-        deque<int> window;
-        vector<int> res;
+
+        deque<int> window;  // Use double-sided queue to maintain the largest number in the front
+        vector<int> res;    // Used to store the results
 
         for(int i=0; i<nums.size(); i++){
+            // If window is empty, just push_back the first element
             if(window.empty()) window.push_back(i);
             else{
+                // If the front id is out of range, pop it
                 if(i>=k && window.front()<=i-k){
                     window.pop_front();
                 }
+                // Keep the front as the max. Pop any existing element that are less than the new element
                 while(!window.empty() && nums[window.back()]<=nums[i]){
                     window.pop_back();
                 }
+                // Push_back the new element
                 window.push_back(i);
             }
+            // Release the result after k steps
             if(i>=k-1) res.push_back(nums[window.front()]);
         }
         return res;
