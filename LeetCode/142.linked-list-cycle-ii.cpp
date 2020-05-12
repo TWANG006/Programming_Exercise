@@ -18,7 +18,7 @@ class Solution
 public:
     ListNode *detectCycle(ListNode *head)
     {
-        return Solution1(head);
+        return Solution2(head);
     }
 
     // 1. Solution 1: using set, O(n), O(n)
@@ -40,6 +40,38 @@ public:
         return NULL;
     }
 
-    // 2. Solution 2: 
+    // 2. Solution 2:
+    ListNode *Solution2(ListNode *head)
+    {
+        ListNode *slow = head;
+        ListNode *fast = head;
+
+        bool hasCycle = false;
+
+        while (slow != NULL && fast != NULL && fast->next != NULL)
+        {
+            slow = slow->next;
+            fast = fast->next->next;
+
+            if (fast == slow)
+            {
+                hasCycle = true;
+                break;
+            }
+        }
+
+        if (!hasCycle)
+            return NULL;
+
+        slow = head;
+
+        while (slow != fast)
+        {
+            slow = slow->next;
+            fast = fast->next;
+        }
+
+        return slow;
+    }
 };
 // @lc code=end
