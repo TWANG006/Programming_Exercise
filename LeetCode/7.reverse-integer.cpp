@@ -5,15 +5,17 @@
  */
 
 // @lc code=start
-class Solution {
+class Solution
+{
 public:
-    int reverse(int x) {
+    int reverse(int x)
+    {
         int rev = 0;
         int ori = x;
 
         bool zeroFlag = true;
 
-        while(ori!=0)
+        while (ori != 0)
         {
             if (ori % 10 == 0 && zeroFlag)
             {
@@ -33,4 +35,3 @@ public:
     }
 };
 // @lc code=end
-
