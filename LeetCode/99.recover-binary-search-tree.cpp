@@ -147,12 +147,12 @@ public:
             }
             else
             {
-                 /*deal with the cur node*/
-                    if (prev->val > cur->val)
-                    {
-                        s = s == nullptr ? prev : s, t = cur;
-                    }
-                    prev = cur;
+                /*deal with the cur node*/
+                if (prev->val > cur->val)
+                {
+                    s = s == nullptr ? prev : s, t = cur;
+                }
+                prev = cur;
                 cur = cur->right;
             }
         }
